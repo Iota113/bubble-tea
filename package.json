@@ -1,0 +1,26 @@
+{
+  "name": "bubble-tea-night",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify.mjs",
+    "dev:local": "vite --mode localtest"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "pg": "^8.23.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  }
+}

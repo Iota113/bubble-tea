@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "dev-local", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev:local", "--", "--port", "5174"], "port": 5174 }
+  ]
+}
